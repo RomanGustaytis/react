@@ -11,25 +11,57 @@ class Quiz extends Component {
         answerState: null, //{[id]: success error}
         quiz: [
             {
-                question: 'Какого цвета небо?',
-                rightAnswerId: 2,
+                question: 'Как сделать текст жирным?',
+                rightAnswerId: 4,
                 id: 1,
                 answers: [
-                    {text: 'Черный', id: 1},
-                    {text: 'Синий', id: 2},
-                    {text: 'Красный', id: 3},
-                    {text: 'Зеленый', id: 4}
+                    {text: '<br>жирный</br>', id: 1},
+                    {text: '<a>жирный</a>', id: 2},
+                    {text: '<p>жирный</p>', id: 3},
+                    {text: '<strong>жирный</strong>', id: 4}
                 ]
             },
             {
-                question: 'В каком году основали Санкт-Петербург?',
+                question: 'Каких тегов в HTML не существует?',
                 rightAnswerId: 3,
                 id: 2,
                 answers: [
-                    {text: '1700', id: 1},
-                    {text: '1702', id: 2},
-                    {text: '1703', id: 3},
-                    {text: '1803', id: 4}
+                    {text: 'Парных', id: 1},
+                    {text: 'Одиночных', id: 2},
+                    {text: 'Тройных', id: 3}
+                ]
+            },
+            {
+                question: 'Как вставить картинку в HTML?',
+                rightAnswerId: 2,
+                id: 2,
+                answers: [
+                    {text: '<img>http://site.com/image.jpg</img>', id: 1},
+                    {text: '<img src="http://site.com/image.jpg">', id: 2},
+                    {text: '<image>http://site.com/image.jpg</image>', id: 3},
+                    {text: '<image source="http://site.com/image.jpg">', id: 4}
+                ]
+            },
+            {
+                question: 'С помощью какого тега в HTML создаются ссылки?',
+                rightAnswerId: 3,
+                id: 2,
+                answers: [
+                    {text: '<p>', id: 1},
+                    {text: '<b>', id: 2},
+                    {text: '<a>', id: 3},
+                    {text: '<i>', id: 4}
+                ]
+            },
+            {
+                question: 'С помощью какого тега создаётся раскрывающийся список в форме?',
+                rightAnswerId: 3,
+                id: 2,
+                answers: [
+                    {text: 'multi', id: 1},
+                    {text: 'radio', id: 2},
+                    {text: 'select', id: 3},
+                    {text: 'pad', id: 4}
                 ]
             }
         ]
