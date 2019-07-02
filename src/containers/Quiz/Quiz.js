@@ -34,7 +34,7 @@ class Quiz extends Component {
             {
                 question: 'Как вставить картинку в HTML?',
                 rightAnswerId: 2,
-                id: 2,
+                id: 3,
                 answers: [
                     {text: '<img>http://site.com/image.jpg</img>', id: 1},
                     {text: '<img src="http://site.com/image.jpg">', id: 2},
@@ -45,7 +45,7 @@ class Quiz extends Component {
             {
                 question: 'С помощью какого тега в HTML создаются ссылки?',
                 rightAnswerId: 3,
-                id: 2,
+                id: 4,
                 answers: [
                     {text: '<p>', id: 1},
                     {text: '<b>', id: 2},
@@ -56,7 +56,7 @@ class Quiz extends Component {
             {
                 question: 'С помощью какого тега создаётся раскрывающийся список в форме?',
                 rightAnswerId: 3,
-                id: 2,
+                id: 5,
                 answers: [
                     {text: 'multi', id: 1},
                     {text: 'radio', id: 2},
